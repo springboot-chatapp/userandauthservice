@@ -58,4 +58,4 @@ jobs:
           SPRING_DATASOURCE_USERNAME: chatapp_user
           SPRING_DATASOURCE_PASSWORD: chatapp_pass
           SPRING_JPA_HIBERNATE_DDL_AUTO: create-drop
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=springboot-chatapp_userandauthservice
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=springboot-chatapp_userandauthservice -Dsonar.organization=springboot-chatapp
